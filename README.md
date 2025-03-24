@@ -1,4 +1,4 @@
-<h2>Task Manager App (Razorpay Android Assignment)</h2>
+<h2>Task Manager App</h2>
 
 <h3>Problem Statement:</h3>
 The objective of this assignment is to develop an Android app for managing tasks while integrating with a third-party SaaS library and an external REST API (or a local JSON response).
@@ -24,7 +24,7 @@ UI follows Material Design 3 principles. <br>
 <b>Version Control:</b> Git & GitHub <br>
 
 <h3>Features Breakdown: </h3>
-1. API Integration (Local JSON Response <br>
+1. API Integration (Local JSON Response) <br>
 Used a JSON file inside assets/ folder to load initial task data. <br>
 Parsed JSON using Gson and inserted data into Room Database. <br>
 2. Task Management (CRUD Operations) <br>
