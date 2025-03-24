@@ -14,14 +14,14 @@ Firebase Crashlytics for crash reporting, including a simulated database error c
 UI follows Material Design 3 principles. <br>
 
  <h3>Tech Stack & Tools Used:</h3>
-<b>Language:</b>Kotlin <br>
-<b>UI Framework:</b>Jetpack Compose <br>
-<b>Architecture:</b>MVVM (Model-View-ViewModel) <br>
-<b>Local Database:</b>Room Database <br>
-<b>Networking:</b>Local JSON Response (assets folder) <br>
-<b>Dependency Injection:</b>Hilt <br>
-<b>Analytics & Crash Logs:</b>Firebase Analytics, Crashlytics, Performance Monitoring <br>
-<b>Version Control:</b>Git & GitHub <br>
+<b>Language:</b> Kotlin <br>
+<b>UI Framework:</b> Jetpack Compose <br>
+<b>Architecture:</b> MVVM (Model-View-ViewModel) <br>
+<b>Local Database:</b> Room Database <br>
+<b>Networking:</b> Local JSON Response (assets folder) <br>
+<b>Dependency Injection:</b> Hilt <br>
+<b>Analytics & Crash Logs:</b> Firebase Analytics, Crashlytics, Performance Monitoring <br>
+<b>Version Control:</b> Git & GitHub <br>
 
 <h3>Features Breakdown: </h3>
 1. API Integration (Local JSON Response <br>
@@ -31,7 +31,7 @@ Parsed JSON using Gson and inserted data into Room Database. <br>
 Display Tasks → Used Jetpack Compose's LazyColumn to show tasks. <br>
 Add Task → Floating Action Button (FAB) opens Add Task screen. <br>
 Edit Task → Clicking a task opens an edit screen. <br>
-Delete Task → Swipe to delete or delete button implemented. <br>
+Delete Task → Delete functionality implemented. <br>
 Mark as Completed → Checkbox to toggle completion status. <br>
 3. Firebase Integration <br>
 Firebase Analytics logs Task Added, Task Edited, Task Completed. <br>
